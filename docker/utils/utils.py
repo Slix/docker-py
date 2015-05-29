@@ -564,7 +564,7 @@ def create_container_config(
         'OpenStdin': True,#stdin_open,
         'StdinOnce': True,#stdin_once,
         'Memory': mem_limit,
-        'AttachStdin': attach_stdin,
+        'AttachStdin': True,#attach_stdin,
         'AttachStdout': attach_stdout,
         'AttachStderr': attach_stderr,
         'Env': environment,

@@ -561,7 +561,7 @@ def create_container_config(
         'ExposedPorts': ports,
         'User': user,
         'Tty': tty,
-        'OpenStdin': stdin_open,
+        'OpenStdin': True,#stdin_open,
         'StdinOnce': True,#stdin_once,
         'Memory': mem_limit,
         'AttachStdin': attach_stdin,
